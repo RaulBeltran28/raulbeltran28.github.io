@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		h2{
+			color: #525558;
+		}
+		header, main, footer{
+			margin:0 auto;
+		}
+		header{
+			height: 100px;
+			width: 1024px;
+			background-color:#FFA43A;
+			padding-top: 20px;
+			padding-bottom: 10px;
+			padding-left: 400px;
+			margin: 0 auto;
+			/*box-sizing: border-box;*/
+			
+		}
+		
+			main{
+				width: 1024px;
+				height: 450px;
+				background-color: #75C7FF;
+				padding-top: 10px;
+				padding-bottom: 20px;
+				padding-left: 80px;
+				padding-right: 50px;
+			}	
+		table{
+			border-collapse: collapse;
+			widht: 50%;
+		}
+		th,td{
+			text-align: left;
+			padding: 10px;
+		}
+		th{
+			/*background-color: black;
+			color:white*/
+		}
+		/*zebras en horizontal*/
+		tr:nth-child(odd){
+			background-color: cadetblue;
+			color: cyan;
+			border-style: dotted;
+			border-color: red;
+			
+		}
+		tr:nth-child(even){
+			background-color:crimson;
+			color: cyan;
+			border-style: dashed;
+			border-color: darkolivegreen;
+		}
+		section{
+			background-color: #D8EDEE;
+			color: #525558;
+			width: 860px;
+			height: 350px;
+			padding: 30px;
+			/*margin-top: 20px;
+			margin-bottom: 20px;*/
+			margin: 20px auto;
+			/*box-sizing: border-box;*/
+			overflow: auto;
+			
+		}
+		/*zebras en vertical*/
+		th:nth-child(even),td:nth-child(even)
+		
+		nav {
+    height: 60px;
+    padding: 30px;
+    background-color: #759EFF;
+    width: 0px;
+}
+		ul{
+    background-color: #759EFF;
+    height: 50px;
+    width: 1023px;
+    padding-left: 20px;
+    margin-left: 256px;
+    margin-right: 69px;
+		}
+		nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 50px;
+    height: 50px;
+	padding-top: 15px;
+    padding-bottom: 10px;
+		}
+		
+		nav ul li a{
+		text-decoration: none;
+		height: 30px;
+		background-color:#FFBF75;
+		padding: 10px;
+		border-radius: 10px;
+		
+	}
+	a:link{
+		color:#525558;
+	}
+	a:visited{
+		color:crimson;
+	}
+	a:hover{
+		color:#75C7FF;
+		background-color: #75C7FF;
+	}
+	a:active{
+		color:#FFA43A;
+	}
+	</style>
+	
+</head>
+
+<body>
+	<header>
+		<h1>Tabla con rayas</h1>
+	</header>
+	<nav>
+	<ul>
+    <li><a href="estilo_texto.html">Estilos de textos</a></li>
+    <li><a href="listas.html">Listas</a></li>
+    <li><a href="tablas_rayas.html">Tablas</a></li>
+    <li><a href="Enlaces.html">Enlaces</a></li>
+    <li><a href="imagenes.html">Imagenes</a></li>
+  </ul>
+	</nav>
+	<main>
+		<section>
+		<h2>Lorem ipsum dolor.</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse animi soluta dolorem reprehenderit inventore facilis in et sunt facere, illo delectus accusamus distinctio quos nisi error ipsa blanditiis corporis, ducimus!</p>
+		<table>
+			<thead>
+				<th>Dato 1</th>
+				<th>Dato 2</th>
+				<th>Dato 3</th>
+				<th>Dato 4</th>
+				
+			</thead>
+			<body>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				<td>91</td>	
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+				<td>91</td>	
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+				<td>91</td>	
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>11</td>
+					<td>12</td>
+				<td>91</td>	
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>14</td>
+					<td>15</td>
+				<td>91</td>	
+				</tr>
+			</body>
+			</table>
+		</section>
+	</main>
+	<footer></footer>
+</body>
+</html>
